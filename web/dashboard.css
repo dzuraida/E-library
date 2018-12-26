@@ -1,0 +1,7 @@
+/* Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:150px 0;}
+
+#pageintro .introtxt{display:block; max-width:50%;}
+#pageintro .introtxt .heading{margin-bottom:30px; font-size:42px;}
+#pageintro .introtxt p{margin-bottom:30px; font-size:24px;}

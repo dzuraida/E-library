@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Book</title>
+    <link href="input.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Comics</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Catalog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Romance</a>
+                            <a class="dropdown-item" href="#">Sci-Fi</a>
+                            <a class="dropdown-item" href="#">Horror</a>
+                            <a class="dropdown-item" href="#">Comedy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="inputbook.html">Input Book</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- body -->
+    <div class="container" style="padding-top: 30px;">
+        <form id="form">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Book Title</label>
+                <input type="booktitle" class="form-control" id="exampleFormControlInput1" placeholder="Book Title">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Book Number</label>
+                <input type="booknumber" class="form-control" id="exampleFormControlInput1" placeholder="Book Number">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Published Year</label>
+                <input type="bookyear" class="form-control" id="exampleFormControlInput1" placeholder="Published Year">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Writer</label>
+                <input type="bookwriter" class="form-control" id="exampleFormControlInput1" placeholder="Book Writer">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Genre</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Romance</option>
+                    <option>Sci-Fi</option>
+                    <option>Action</option>
+                    <option>Horror</option>
+                    <option>Comedy</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Synopsis</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">Book Picture</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+            <button type="submit" class="btn btn-primary">Input</button>
+        </form>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</html>
